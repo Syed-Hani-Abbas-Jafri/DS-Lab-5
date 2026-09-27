@@ -97,7 +97,7 @@ void convert(string label, string infix) {
     vector<string> postfix = infixToPostfix(tokens);
     string prefix = postfixToPrefix(postfix);
 
-    cout << "==== " << label << " ====\n";
+    cout << label << "\n";
     cout << "Infix   : " << infix << "\n";
     cout << "Postfix : " << join(postfix) << "\n";
     cout << "Prefix  : " << prefix << "\n\n";
